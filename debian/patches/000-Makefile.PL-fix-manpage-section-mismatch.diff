@@ -1,0 +1,23 @@
+#
+# Description: Modify Makefile.PL to fix lintian W: manpage-section-mismatch
+# Forwarded: https://bugs.launchpad.net/percona-toolkit/+bug/856024
+# Author: Dario Minnucci <midget@debian.org>
+# Last-Update: 2012-01-09
+#
+Index: percona-toolkit/Makefile.PL
+===================================================================
+--- percona-toolkit.orig/Makefile.PL	2011-09-22 00:31:02.184587428 +0200
++++ percona-toolkit/Makefile.PL	2011-09-22 02:35:32.216331978 +0200
+@@ -5,10 +5,10 @@
+     VERSION   => '2.0.3',
+     EXE_FILES => [ <bin/*> ],
+     MAN1PODS  => {
+-      'docs/percona-toolkit.pod' => 'blib/man1/percona-toolkit.1',
++      'docs/percona-toolkit.pod' => 'blib/man1/percona-toolkit.1p',
+       map {
+          (my $name = $_) =~ s/^bin.//;
+-         $_ => "blib/man1/$name.1";
++         $_ => "blib/man1/$name.1p";
+       } <bin/*>
+     },
+     MAN3PODS     => {}, # man(3) pages are for C libs

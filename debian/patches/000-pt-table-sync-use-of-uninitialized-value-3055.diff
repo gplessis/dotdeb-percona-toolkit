@@ -1,0 +1,19 @@
+#
+# Description: Fix for "Use of uninitialized value $args{"chunk_range"} ..." (BTS#650409)
+# Last-Update: 2011-11-18
+# Bug: https://bugs.launchpad.net/percona-toolkit/+bug/897758
+# Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=650409
+#
+Index: percona-toolkit/bin/pt-table-sync
+===================================================================
+--- percona-toolkit.orig/bin/pt-table-sync	2011-11-29 17:02:51.101781386 +0100
++++ percona-toolkit/bin/pt-table-sync	2011-11-29 17:07:56.297156253 +0100
+@@ -3052,7 +3052,7 @@
+          }
+       }
+ 
+-      my $chunk_range = lc $args{chunk_range} || 'open';
++      my $chunk_range = lc($args{chunk_range} || 'open');
+       my $nullable    = $args{tbl_struct}->{is_nullable}->{$args{chunk_col}};
+       pop @chunks;
+       if ( @chunks ) {

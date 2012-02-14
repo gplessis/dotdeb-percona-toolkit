@@ -1,0 +1,3 @@
+version=3
+
+http://www.percona.com/downloads/percona-toolkit/ /downloads/percona-toolkit/(.+)/

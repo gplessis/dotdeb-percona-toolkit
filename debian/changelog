@@ -1,0 +1,54 @@
+percona-toolkit (2.0.3-1~dotdeb.0) stable; urgency=low
+
+  * Rebuilt for Dotdeb
+
+ -- Guillaume Plessis <gui@dotdeb.org>  Tue, 14 Feb 2012 15:56:42 +0100
+
+percona-toolkit (2.0.3-1) unstable; urgency=low
+
+  * debian/watch: Updated to match new download URL. 
+  * debian/patches:
+    - 000-Makefile.PL-fix-manpage-section-mismatch.diff: Refreshed.
+    - 000-pt-table-sync-use-of-uninitialized-value-3055.diff: Dropped, 
+      applied upstream.
+
+ -- Dario Minnucci <midget@debian.org>  Fri, 10 Feb 2012 23:27:39 +0100
+
+percona-toolkit (2.0.2-1) unstable; urgency=low
+
+  * New upstream release (2.0.2) 
+  * debian/patches:
+    - Drop 000-pt-tcp-model-broken-for-type-requests.diff (Fixed upstream)
+    - 000-Makefile.PL-fix-manpage-section-mismatch.diff (Updated)
+
+ -- Dario Minnucci <midget@debian.org>  Mon, 09 Jan 2012 17:10:35 +0100
+
+percona-toolkit (1.0.1-3) unstable; urgency=low
+
+  * 000-pt-table-sync-use-of-uninitialized-value-3055.diff:
+    Fix for "Use of uninitialized value $args{"chunk_range"} ..."
+    (Closes: #650409)
+
+ -- Dario Minnucci <midget@debian.org>  Tue, 29 Nov 2011 17:24:12 +0100
+
+percona-toolkit (1.0.1-2) unstable; urgency=low
+
+  * debian/copyright: Percona Inc. email addess updated.
+  * debian/patches/000-pt-tcp-model-broken-for-type-requests.diff:
+    Fix for pt-tcp-model brekages when used with --type=requests
+    option. Thanks to Kristian Grønfeldt Sørensen for the patch and
+    Daniel Nichter for confirmation. (Closes: 648820)
+
+ -- Dario Minnucci <midget@debian.org>  Fri, 18 Nov 2011 03:10:04 +0100
+
+percona-toolkit (1.0.1-1) unstable; urgency=low
+
+  [Dario Minnucci]
+  * Initial release (Closes: #642344)
+  * debian/copyright: Updated.
+  * debian/watch: Added.
+  * debian/patches:
+    + 000-docs-percona-toolkit.pod-fix-manpage-has-bad-whatis-entry.diff
+    + 000-Makefile.PL-fix-manpage-section-mismatch.diff
+
+ -- Dario Minnucci <midget@debian.org>  Thu, 22 Sep 2011 23:59:56 +0200

@@ -1,0 +1,28 @@
+Source: percona-toolkit
+Section: utils
+Priority: optional
+Maintainer: Guillaume Plessis <gui@dotdeb.org>
+Build-Depends: debhelper (>= 8.0.0)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.2
+Homepage: http://www.percona.com/software/percona-toolkit
+Vcs-Git: git://git.debian.org/collab-maint/percona-toolkit.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/percona-toolkit.git;a=summary
+
+Package: percona-toolkit
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, libdbi-perl, libdbd-mysql-perl, libterm-readkey-perl, gdb
+Replaces: maatkit
+Conflicts: maatkit
+Description: Command-line tools for MySQL and system tasks
+ Percona Toolkit is a collection of advanced command-line tools to
+ perform a variety of MySQL and system tasks that are too difficult
+ or complex to perform manually, including:
+ .
+  - Verify master and replica data consistency
+  - Efficiently archive rows
+  - Find duplicate indexes
+  - Summarize MySQL servers
+  - Analyze queries from logs and tcpdump
+  - Collect vital system information when problems occur
+

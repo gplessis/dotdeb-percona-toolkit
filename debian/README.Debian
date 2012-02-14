@@ -1,0 +1,10 @@
+percona-toolkit for Debian
+--------------------------
+
+percona-toolkit (1.0.1-1) unstable; urgency=low
+
+ 'percona-toolkit' is a replacement for 'maatkit' package in Debian.
+ Maatkit has become part of Percona Toolkit, and there will be no
+ further development or releases separate from Percona Toolkit.
+
+ -- Dario Minnucci <midget@debian.org>  Thu, 22 Sep 2011 23:54:25 +0200
