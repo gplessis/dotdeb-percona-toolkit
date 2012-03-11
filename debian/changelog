@@ -1,8 +1,19 @@
-percona-toolkit (2.0.3-1~dotdeb.0) stable; urgency=low
+percona-toolkit (2.0.4-1~dotdeb.0) stable; urgency=low
 
   * Rebuilt for Dotdeb
 
- -- Guillaume Plessis <gui@dotdeb.org>  Tue, 14 Feb 2012 15:56:42 +0100
+ -- Guillaume Plessis <gui@dotdeb.org>  Sun, 11 Mar 2012 11:29:42 +0100
+
+percona-toolkit (2.0.4-1) unstable; urgency=low
+
+  * New upstream release (2.0.4) 
+  * debian/patches:
+    - 000-Makefile.PL-fix-manpage-section-mismatch.diff: Refreshed
+  * debian/control:
+    - Bump Standards-Version to 3.9.3 (no changes)
+    - Update Build-Depends to use debhelper (>= 9)
+
+ -- Dario Minnucci <midget@debian.org>  Sat, 10 Mar 2012 08:40:03 +0100
 
 percona-toolkit (2.0.3-1) unstable; urgency=low
 
