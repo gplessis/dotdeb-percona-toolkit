@@ -9,7 +9,7 @@ Index: percona-toolkit/Makefile.PL
 --- percona-toolkit.orig/Makefile.PL	2011-09-22 00:31:02.184587428 +0200
 +++ percona-toolkit/Makefile.PL	2011-09-22 02:35:32.216331978 +0200
 @@ -5,10 +5,10 @@
-     VERSION   => '2.0.4',
+     VERSION   => '2.1.1',
      EXE_FILES => [ <bin/*> ],
      MAN1PODS  => {
 -      'docs/percona-toolkit.pod' => 'blib/man1/percona-toolkit.1',
