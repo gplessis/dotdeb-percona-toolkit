@@ -1,8 +1,14 @@
+percona-toolkit (2.1.9-1~dotdeb.0) stable; urgency=low
+
+  * New upstream release
+
+ -- Guillaume Plessis <gui@dotdeb.org>  Tue, 19 Feb 2013 20:20:42 +0100
+
 percona-toolkit (2.1.8-1~dotdeb.0) stable; urgency=low
 
   * New upstream release
 
- -- Guillaume Plessis <gui@dotdeb.org>  Thu, 10 Jan 2012 23:23:42 +0100
+ -- Guillaume Plessis <gui@dotdeb.org>  Thu, 10 Jan 2013 23:23:42 +0100
 
 percona-toolkit (2.1.7-1~dotdeb.0) stable; urgency=low
 
