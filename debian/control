@@ -4,10 +4,10 @@ Priority: optional
 Maintainer: Guillaume Plessis <gui@dotdeb.org>
 Build-Depends: debhelper (>= 9)
 Build-Depends-Indep: perl
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://www.percona.com/software/percona-toolkit
-Vcs-Git: git://git.debian.org/collab-maint/percona-toolkit.git
-Vcs-Browser: http://git.debian.org/?p=collab-maint/percona-toolkit.git;a=summary
+Vcs-Git: git://anonscm.debian.org/collab-maint/percona-toolkit.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/percona-toolkit.git;a=summary
 
 Package: percona-toolkit
 Architecture: all

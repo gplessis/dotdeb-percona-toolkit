@@ -1,20 +1,31 @@
-percona-toolkit (2.1.9-1~dotdeb.0) stable; urgency=low
-
-  * New upstream release
-
- -- Guillaume Plessis <gui@dotdeb.org>  Tue, 19 Feb 2013 20:20:42 +0100
-
-percona-toolkit (2.1.8-1~dotdeb.0) stable; urgency=low
-
-  * New upstream release
-
- -- Guillaume Plessis <gui@dotdeb.org>  Thu, 10 Jan 2013 23:23:42 +0100
-
-percona-toolkit (2.1.7-1~dotdeb.0) stable; urgency=low
+percona-toolkit (2.2.1-1~dotdeb.0) stable; urgency=low
 
   * Rebuilt for Dotdeb
 
- -- Guillaume Plessis <gui@dotdeb.org>  Fri, 23 Nov 2012 15:17:42 -0800
+ -- Guillaume Plessis <gui@dotdeb.org>  Tue, 26 Mar 2013 16:39:42 +0100
+
+percona-toolkit (2.2.1-1) unstable; urgency=low
+
+  * New upstream release (2.2.1)
+  * debian/patches/001-spelling-error-in-manpages.diff: Fix for error
+    in manpages. Thanks to Benjamin Kerensa. (Closes: #698116)
+  * debian/control: Canonical name in Vcs-Git and Vcs-Browser fields
+
+ -- Dario Minnucci <midget@debian.org>  Wed, 20 Mar 2013 17:36:59 +0100
+
+percona-toolkit (2.1.9-1) unstable; urgency=low
+
+  * New upstream release (2.1.9)
+  * debian/copyright: Years updated
+  * debian/control: Bump Standards-Version to 3.9.4 (no changes)
+
+ -- Dario Minnucci <midget@debian.org>  Thu, 21 Feb 2013 02:04:56 +0100
+
+percona-toolkit (2.1.8-1) unstable; urgency=low
+
+  * New upstream release (2.1.8) (Closes: #698185)
+
+ -- Dario Minnucci <midget@debian.org>  Mon, 21 Jan 2013 17:36:54 +0100
 
 percona-toolkit (2.1.7-1) unstable; urgency=low
 
