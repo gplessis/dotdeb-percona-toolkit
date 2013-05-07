@@ -1,8 +1,14 @@
-percona-toolkit (2.2.1-1~dotdeb.0) stable; urgency=low
+percona-toolkit (2.2.2-1~dotdeb.1) stable; urgency=low
 
-  * Rebuilt for Dotdeb
+  * Rebuilt for Wheezy
 
- -- Guillaume Plessis <gui@dotdeb.org>  Tue, 26 Mar 2013 16:39:42 +0100
+ -- Guillaume Plessis <gui@dotdeb.org>  Tue, 07 May 2013 07:22:42 -0700
+
+percona-toolkit (2.2.2-1) unstable; urgency=low
+
+  * New upstream release (2.2.2)
+
+ -- Dario Minnucci <midget@debian.org>  Mon, 06 May 2013 23:50:29 +0200
 
 percona-toolkit (2.2.1-1) unstable; urgency=low
 
