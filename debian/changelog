@@ -1,3 +1,9 @@
+percona-toolkit (2.2.5-1~dotdeb.0) oldstable; urgency=low
+
+  * New upstream release
+
+ -- Guillaume Plessis <gui@dotdeb.org>  Mon, 04 Nov 2013 12:50:42 -0700
+
 percona-toolkit (2.2.4-1~dotdeb.0) oldstable; urgency=low
 
   * New upstream release
