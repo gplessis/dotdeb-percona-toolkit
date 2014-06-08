@@ -2,10 +2,10 @@ Description: Fix mispelling on manpages
 Bug: https://bugs.launchpad.net/debian/+source/percona-toolkit/+bug/1081072 
 Bug-Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=698116
 Last-Update: 2013-03-20
-Index: percona-toolkit-2.2.7/bin/pt-archiver
+Index: percona-toolkit-2.2.8/bin/pt-archiver
 ===================================================================
---- percona-toolkit-2.2.7.orig/bin/pt-archiver
-+++ percona-toolkit-2.2.7/bin/pt-archiver
+--- percona-toolkit-2.2.8.orig/bin/pt-archiver
++++ percona-toolkit-2.2.8/bin/pt-archiver
 @@ -7579,7 +7579,7 @@ lead to weird situations, like the serve
  the client throwing exceptions if it's used.
  
@@ -15,11 +15,11 @@ Index: percona-toolkit-2.2.7/bin/pt-archiver
  and L<http://search.cpan.org/~capttofu/DBD-mysql/lib/DBD/mysql.pm>.
  This option does exactly that.
  
-Index: percona-toolkit-2.2.7/bin/pt-upgrade
+Index: percona-toolkit-2.2.8/bin/pt-upgrade
 ===================================================================
---- percona-toolkit-2.2.7.orig/bin/pt-upgrade
-+++ percona-toolkit-2.2.7/bin/pt-upgrade
-@@ -11085,7 +11085,7 @@ lead to weird situations, like the serve
+--- percona-toolkit-2.2.8.orig/bin/pt-upgrade
++++ percona-toolkit-2.2.8/bin/pt-upgrade
+@@ -11099,7 +11099,7 @@ lead to weird situations, like the serve
  the client throwing exceptions if it's used.
  
  However, as long as the server allows LOAD DATA, clients can easily
