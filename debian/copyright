@@ -5,8 +5,8 @@ Source: http://www.percona.com/downloads/percona-toolkit/
 
 
 Files: *
-Copyright: 2007-2013 Baron Schwartz
-           2011-2013 Percona Inc. <trademarks@percona.com>
+Copyright: 2007-2014 Baron Schwartz
+           2011-2014 Percona Inc. <trademarks@percona.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -27,7 +27,7 @@ License: GPL-2+
 
 
 Files: bin/pt-log-player bin/pt-query-digest
-Copyright: 2008-2013 Percona Inc. <trademarks@percona.com>
+Copyright: 2008-2014 Percona Inc. <trademarks@percona.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -48,8 +48,8 @@ License: GPL-2+
 
 
 Files: bin/pt-diskstats bin/pt-mysql-summary bin/pt-pmp bin/pt-summary bin/pt-variable-advisor bin/pt-collect bin/pt-trend bin/pt-stalk bin/pt-sift bin/pt-index-usage
-Copyright: 2010-2013 Baron Schwartz
-           2011-2013 Percona Inc. <trademarks@percona.com>
+Copyright: 2010-2014 Baron Schwartz
+           2011-2014 Percona Inc. <trademarks@percona.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -70,8 +70,8 @@ License: GPL-2+
 
 
 Files: bin/pt-tcp-model
-Copyright: 2011-2013 Baron Schwartz
-           2011-2013 Percona Inc. <trademarks@percona.com>
+Copyright: 2011-2014 Baron Schwartz
+           2011-2014 Percona Inc. <trademarks@percona.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -92,8 +92,8 @@ License: GPL-2+
 
 
 Files: bin/pt-tcp-model
-Copyright: 2009-2013 Baron Schwartz
-           2011-2013 Percona Inc. <trademarks@percona.com>
+Copyright: 2009-2014 Baron Schwartz
+           2011-2014 Percona Inc. <trademarks@percona.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -114,7 +114,7 @@ License: GPL-2+
 
 
 Files: bin/pt-fk-error-logger bin/pt-config-diff bin/pt-online-schema-change
-Copyright: 2011-2013 Percona Inc. <trademarks@percona.com>
+Copyright: 2011-2014 Percona Inc. <trademarks@percona.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -135,7 +135,7 @@ License: GPL-2+
 
 
 Files: bin/pt-query-advisor 
-Copyright: 2010-2013 Percona Inc. <trademarks@percona.com>
+Copyright: 2010-2014 Percona Inc. <trademarks@percona.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -156,8 +156,8 @@ License: GPL-2+
 
 
 Files: bin/pt-slave-delay
-Copyright: 2007-2013 Sergey Zhuravle
-           2007-2013 Baron Schwartz
+Copyright: 2007-2014 Sergey Zhuravle
+           2007-2014 Baron Schwartz
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -179,7 +179,7 @@ License: GPL-2+
 
 Files: bin/pt-mext
 Copyright: 2010 Sergey Zhuravle
-           2011-2013 Baron Schwartz
+           2011-2014 Baron Schwartz
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -200,7 +200,7 @@ License: GPL-2+
 
 
 Files: bin/pt-upgrade
-Copyright: 2009-2013 Percona Inc. <trademarks@percona.com>
+Copyright: 2009-2014 Percona Inc. <trademarks@percona.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -242,7 +242,7 @@ License: GPL-2+
 
 
 Files: debian/*
-Copyright: 2011-2013 Dario Minnucci <midget@debian.org>
+Copyright: 2011-2014 Dario Minnucci <midget@debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
